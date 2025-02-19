@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meta is to give metadata about your html page lol. the http-equiv with refresh makes an auto refresh on page">
+    <meta name="keyboards" content="html, idk, keyboards, etc">
+    <meta http-equiv="refresh" content="10000">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Links</h1>
+        <a href="#" target="_self">Links go in A and target self open in the same page</a>
+        <a href="#" target="_blank">A blank target creates and redirects to another page</a>        
+        <a href="rammoscafe@gmail.com">Email is overcomplicated, dont use</a>
+    </div>
+    <div>
+        <h1>Image</h1>
+        <h3>src is where you put the image, alt is the decription but no one sees just you. Title will appear when you pass your cursor on it. Height is height, width is width</h3>
+        <a class="use-this-to-link-your-image-to-some-link-lol" href="#">
+            <img src="assets/`` header_ ``.jpeg" width="100%" height="" alt="very neko is she" title="title neko i guess"> 
+        </a>
+    </div>
+    <div>
+        <h1>Audio</h1>
+        <h3>This is full of boolean atributes, wich is prety cool. They're all full of self explanation</h3>
+        <audio controls muted loop>
+            <source src="assets/What If So Then - Karneef.mp3">
+            <source src="assets/Start Vacuum - Karneef.mp3">
+        <audio muted autoplay src="assets/What If So Then - Karneef.mp3">aqi</audio>
+        </audio>
+    </div>
+    <div>
+        <h1><Video></Video></h1>
+        <h3>description</h3>
+        <video autoplay loop controls src="assets/videoplayback.mp4" width="500"></video>
+    </div>
+    <div>
+        <h1>Lists</h1>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>example</li>
+            <li>example</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol type="A">
+            <li>example</li>
+            <li>example</li>
+        </ol>
+        <h3>Description List</h3>
+        <dl>
+            <dt>This is the subject</dt>
+            <dd>this is it description</dd>
+        </dl>
+    </div>
+    <div>
+        <h1>text formating</h1>
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>italic</i> text</p>
+        <p>This is <big>big</big> text</p>
+        <p>This is <small>small</small> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <ins>inserted</ins> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <mark>marked</mark> text</p>
+    </div>
+    <div>
+        <h1>Table</h1>
+        <table bgcolor="black" width="400">
+            <tr bgcolor="grey">
+                <th width="100">th is the header</th>
+                <th width="100">th is the header</th>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td>tr is the row</td>
+                <td>td is the data</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>span&div</h1>
+        <p>Lorem ipsum dolor, amet <span style="color: white; background-color: black; border-radius: 50px;">span actually do nothing on the text</span> consectetur </p> 
+        <p>elit. Odit maxime, veritatis sed velit eligendi <div style="background-color: lightgray;">actually does a division of the document</div>autem quas, officia molestias quaerat ex in nam</p>
+        <p>et ad perspiciatis ea ullam, amet quasi explicabo?</p>
+    </div>
+
+    <div>
+        <h1>iframe</h1>
+        <h3>So...its basicly ads, but a lot of sites doesnt allow it because you can use it to hack someone or some stuff like that</h3>
+        <iframe src="https://mangadex.org/title/b9ab9cac-cfe9-4b1d-9737-f3d85d5585ac/everyday-life-with-an-older-girlfriendg" frameborder="0"></iframe>
+        <iframe src="assets/_.jpeg" frameborder="0" width="auto" height="150px"></iframe>
+    </div>
+    <div>
+        <h1>Buttons</h1>
+        
+        <a href="http://github.com/jqmRamos" target="_blank" rel="noopener noreferrer">
+            <button>
+                A button, use a to make a link for some bs
+            </button>
+        </a>
+        <br>
+        <button onclick="doSomething()">
+            You can use a js function, this is cool
+        </button>
+
+        <p id="test">
+            example
+        </p>
+
+
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Something";
+            }
+        </script>
+    </div>
+
+    <div>
+        <h1>Forms</h1>
+        
+        <form action="example.php" method="post">
+            <div>
+                <label for="WExp">Example:</label>
+                <input type="WExp">
+            </div>
+            <br>
+            <div>
+                <label for="WExp2" id="example" name="example">Example 2:</label>
+                <input type="WExp2" placeholder="this is the placeholder">
+                <input type="WExp2" placeholder="this is required" required>
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" maxlength="10" placeholder="email goes there, duh" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" maxlength="10" placeholder="maxlength set to 10" required>
+            </div>
+            <br>
+            <div>
+                <label for="Bdate">Date:</label>
+                <input type="date" placeholder="doesnt work here" required>
+            </div>
+            <br>
+            <div>
+                <label for="Number">Number:</label>
+                <input type="number" min="0" max="1" placeholder="numbers, yey" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" maxlength="10" placeholder="well, your phone number" required>
+            </div>
+            <br>
+            <div>
+                <label for="options">Options:</label>
+                <input type="radio" name="option" value="anything">
+                <label >Look</label>
+                
+                <input type="radio" name="option" value="its getting late">
+                <label >options</label>
+
+                <input type="radio" name="option" value="goodbye">
+                <label >there</label>
+            </div>
+            <br>
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
