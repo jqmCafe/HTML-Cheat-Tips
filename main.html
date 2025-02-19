@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meta is to give metadata about your html page lol. the http-equiv with refresh makes an auto refresh on page">
     <meta name="keyboards" content="html, idk, keyboards, etc">
-    <meta http-equiv="refresh" content="10000">
+    <!--
+    <meta http-equiv="refresh" content="10000"> 
+    -->
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
     <div>
         <h1>Links</h1>
-        <a href="#" target="_self">Links go in A and target self open in the same page</a>
-        <a href="#" target="_blank">A blank target creates and redirects to another page</a>        
-        <a href="rammoscafe@gmail.com">Email is overcomplicated, dont use</a>
+        <span>
+            <a href="#" target="_self">Links go in A and target self open in the same page</a>
+            <br>
+            <a href="#" target="_blank">A blank target creates and redirects to another page</a>        
+            <br>
+            <a href="rammoscafe@gmail.com">Email is overcomplicated, dont use</a>
+        </span>
     </div>
     <div>
         <h1>Image</h1>
@@ -28,13 +35,12 @@
         <audio controls muted loop>
             <source src="assets/What If So Then - Karneef.mp3">
             <source src="assets/Start Vacuum - Karneef.mp3">
-        <audio muted autoplay src="assets/What If So Then - Karneef.mp3">aqi</audio>
         </audio>
+        <audio muted src="assets/What If So Then - Karneef.mp3">aqi</audio>
     </div>
     <div>
-        <h1><Video></Video></h1>
-        <h3>description</h3>
-        <video autoplay loop controls src="assets/videoplayback.mp4" width="500"></video>
+        <h1>Video</h1>
+        <video autoplay muted src="assets/videoplayback.mp4" width="500"></video>
     </div>
     <div>
         <h1>Lists</h1>
@@ -82,7 +88,7 @@
     </div>
     <div>
         <h1>span&div</h1>
-        <p>Lorem ipsum dolor, amet <span style="color: white; background-color: black; border-radius: 50px;">span actually do nothing on the text</span> consectetur </p> 
+        <p>Lorem ipsum dolor, amet <br><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-radius: 50px;">span actually do nothing on the text</span> consectetur </p> 
         <p>elit. Odit maxime, veritatis sed velit eligendi <div style="background-color: lightgray;">actually does a division of the document</div>autem quas, officia molestias quaerat ex in nam</p>
         <p>et ad perspiciatis ea ullam, amet quasi explicabo?</p>
     </div>
