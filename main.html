@@ -95,7 +95,7 @@
 
     <div>
         <h1>iframe</h1>
-        <h3>So...its basicly ads, but a lot of sites doesnt allow it because you can use it to hack someone or some stuff like that</h3>
+        <h3 style="color: rgb(255, 255, 255);">So...its basicly ads, but a lot of sites doesnt allow it because you can use it to hack someone or some stuff like that</h3>
         <iframe src="https://mangadex.org/title/b9ab9cac-cfe9-4b1d-9737-f3d85d5585ac/everyday-life-with-an-older-girlfriendg" frameborder="0"></iframe>
         <iframe src="assets/_.jpeg" frameborder="0" width="auto" height="150px"></iframe>
     </div>
@@ -119,7 +119,9 @@
 
         <script>
             function doSomething(){
-                document.getElementById("test").innerHTML = "Something";
+                if(document.getElementById("test").innerHTML = "Something"){
+                    document.getElementById("test").innerHTML = "Cool"
+                }
             }
         </script>
     </div>
