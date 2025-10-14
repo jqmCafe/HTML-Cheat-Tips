@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Playwrite US Modern', sans-serif;
+}
+
+ a{
+    cursor: pointer;
+    color: black;
+}
+
+/* 
+a:visited{
+    color: red;
+}
+ */
+
+a:hover, a:focus{
+    color:rgb(228, 194, 0);     
+}
+
+a:active{
+    color: purple
+}

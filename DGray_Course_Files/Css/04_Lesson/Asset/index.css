@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: "Playwrite US Modern", cursive;
+    
+}
+
+p{
+    /*text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+     */
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 1.8;
+    word-spacing: 0.2em;
+    
+}
+
+/* 
+input, button{
+    font: inherit;
+} */
