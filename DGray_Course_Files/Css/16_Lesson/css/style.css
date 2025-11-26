@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+/*Begn Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{display: block;}
+/*End Reset*/
+
+/*Utility Classes*/
+
+.nowrap{
+  white-space: nowrap;
+}
+
+.offscreen{
+  position: absolute;
+  left: -1000000000px;
+}
+
+/*End Utility Classes*/
+body {
+  font-family: 'Playwrite US Modern', sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;/* 
+  background-image: url(/DGray_Course_Files/Css/16_Lesson/img/bubbles.png), 
+                    linear-gradient(to right,rgb(252, 255, 216),  rgb(245, 195, 242));
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center;
+  */
+  background: repeat-y right center url("/DGray_Course_Files/Css/16_Lesson/img/bubbles.png"), no-repeat linear-gradient(to right,rgb(252, 255, 216),  rgb(245, 195, 242));
+  background-size: 20%, auto;
+}
+
+.container{
+  background-color: rgb(255, 243, 227);
+  background-image: url('/DGray_Course_Files/Css/16_Lesson/img/map-2176x1451.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.hero{
+  background-color: rgba(250, 250, 229, 0.562);
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.h1{
+  font-size: 500%;
+  color: rgb(236, 231, 255);
+  text-shadow: 2px 2px 5px black;
+  /*
+  background-color: rgba(0, 0, 0, 0.329);
+  padding: 0.25rem;
+  border-radius: 10px; */
+}
+.profile-pic-figure{
+  width: 35%;
+}
+
+.profile-pic-figure img{
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+
+.example{
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  left: -10000000px;
+}
+
+.example img{
+  width: 25%;
+  height: auto;
+}
+
+.clip{
+  font-weight: 800;
+  font-size: 10rem;
+  text-align: center;
+  background-image: url(/assets/d4e07b24-f5cc-4f8d-957a-7f742dc8bff5.jpg);
+  background-size: 100%;
+  background-position: center;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
