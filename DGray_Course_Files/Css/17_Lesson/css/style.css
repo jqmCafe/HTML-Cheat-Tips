@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
 /* || RESET */
 * {
   margin: 0;
@@ -9,6 +9,6 @@
 
 /* || GENERAL STYLES */
 body {
-  font: 1.5rem "Nunito", sans-serif;
+  font-family: 'Playwrite US Modern', sans-serif;
   min-height: 100vh;
 }
