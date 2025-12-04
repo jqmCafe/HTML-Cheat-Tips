@@ -9,6 +9,50 @@
 
 /* || GENERAL STYLES */
 body {
-  font-family: 'Playwrite US Modern', sans-serif;
+  font: 1.5rem 'Playwrite US Modern', sans-serif;
   min-height: 100vh;
+  background-color: slategray;
+  background-image: radial-gradient(rgb(62, 73, 83), slategray);
+  display: flex;
+  flex-direction: column;
+}
+
+header,nav, main, footer{
+  display: grid;
+  place-content: center;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+header, footer{
+  position: sticky;
+  background-color: #1e293b;
+  color: whitesmoke;
+}
+
+header{
+  top: 0;
+}
+
+main{
+  flex-grow: 1;
+}
+nav{
+  background-color: whitesmoke;
+  color: #1e293b;
+  /* border-radius: 25%; */
+  border-bottom: 2px solid;
+
+}
+footer{
+  bottom: 0;
+}
+
+
+/* || SMALL*/ 
+@media screen and (min-width: 576px){
+  body{
+    background-color: green;
+    background-image: radial-gradient(whitesmoke, purple);
+  }
 }
